@@ -60,7 +60,7 @@ resource "helm_release" "lb" {
 
   set {
     name  = "image.repository"
-    value = "590183905657.dkr.ecr.us-west-2.amazonaws.com/aws-load-balancer-controller"
+    value = "602401143452.dkr.ecr.${var.main-region}.amazonaws.com/amazon/aws-load-balancer-controller"         
   }
 
   set {
