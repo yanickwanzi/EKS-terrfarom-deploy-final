@@ -1,7 +1,7 @@
 ################################################################################
 # Load Balancer Role
 ################################################################################
-/*
+
 module "lb_role" {
   source = "terraform-aws-modules/iam/aws//modules/iam-role-for-service-accounts-eks"
 
@@ -78,4 +78,4 @@ resource "helm_release" "lb" {
     value = var.cluster_name
   }
 }
-*/
+
