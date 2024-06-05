@@ -45,7 +45,7 @@ pipeline {
                Let me know if the changes look okay.
                Thanks,
               Wanzi Technologies,
-              +1 (989) 614-3422''', cc: 'yanick1wy@gmail.com', from: '', replyTo: '', subject: 'Terraform Infra deployment completed!!!', to: 'wanzi1ky@gmail.com'
+              +1 (989) 614-3422''', cc: 'wanzi1ky@gmail.com', from: '', replyTo: '', subject: 'Terraform Infra deployment completed!!!', to: 'wanzi1ky@gmail.com'
                           
                }    
           }
