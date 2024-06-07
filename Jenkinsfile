@@ -41,7 +41,7 @@ pipeline {
                 }
         stage ('5. Email Notification') {
             steps {
-               mail bcc: 'wanzi1ky@gmail.com', body: '''Terraform deployment is completed.
+               mail bcc: 'wanzijs24@gmail.com', body: '''Terraform deployment is completed.
                Let me know if the changes look okay.
                Thanks,
               Wanzi Technologies,
